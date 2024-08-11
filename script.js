@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const image = entry.target;
         console.log('load');
         
-        const originalImage = img.getAttribute('src');
+        const originalImage = image.getAttribute('src');
         console.log(originalImage);
 
         imgOrg.push(originalImage);
